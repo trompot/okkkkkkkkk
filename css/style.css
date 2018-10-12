@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+/* Font読み込み */
+@font-face {
+  font-family: "MyFont";
+  font-family: YuGothic, "Yu Gothic", sans-serif;
+  src: url(../font/GoogleFonts/MPLUSRounded1c-Regular.ttf);
+  /* src: url(../font/GoogleFonts/MPLUSRounded1c-Bold.ttf); */
+}
+@font-face {
+  font-family: "thema";
+  src: url(../font/font!!!/HGSSoeiKakupoptai-03.ttf);
+}
+
+/* 定義 */
+:root {
+  --red: #c0392b;
+  --pink: #ee5a24;
+  --orange: #f79f1f;
+  --yellow: #f1c40f;
+  --blue: #1289a7;
+  --purple: #8e44ad;
+  --yellowgreen: #a3cb38;
+  --green: #009432;
+  --grai: #2f3640;
+  --cream: #e6fafc;
+}
+
+/* スタイル */
+html,
+body {
+  font-family: "MyFont";
+  height: 100%;
+  width: 100%;
+  /* font-size: 25px; */
+  line-height: 1.5em;
+  color: #e6fafc;
+}
+.title {
+  /* font-size: 50px; */
+  display: inline;
+  font-size: 10em;
+}
+
+title,
+img {
+  /* font-size: 50px; */
+  height: 25px;
+  display: inline;
+}
+
+.thema {
+  font-family: "thema";
+  display: inline;
+  font-size: 1.4em;
+}
+
+.card-title{
+  text-shadow: 1px 1px 1px #2f3640;
+  /* text-shadow: 1px 1px 0 var(--cream); */
+}
+
+/* 各ページ */
+#top,
+#about {
+  height: 100%;
+}
+
+/* 色設定 */
+.red {
+  background-color: #c0392b;
+}
+.pink {
+  background-color: #ee5a24;
+}
+.orange {
+  background-color: #f79f1f;
+}
+.yellow {
+  background-color: #f1c40f;
+}
+.blue {
+  background-color: #1289a7;
+}
+.purple {
+  background-color: #8e44ad;
+}
+.yellowgreen {
+  background-color: #a3cb38;
+}
+.green {
+  background-color: #009432;
+}
+.grai {
+  background-color: #2f3640;
+}
+.cream {
+  background-color: #e6fafc;
+}
+.b-red {
+  border: solid 5px #c0392b;
+}
+.t-red {
+  color: #c0392b;
+}
+.t-pink {
+  color: #ee5a24;
+}
+.t-orange {
+  color: #f79f1f;
+}
+.t-yellow {
+  color: #f1c40f;
+}
+.t-blue {
+  color: #1289a7;
+}
+.t-purple {
+  color: #8e44ad;
+}
+.t-yellowgreen {
+  color: #a3cb38;
+}
+.t-green {
+  color: #009432;
+}
+.t-grai {
+  color: #2f3640;
+}
+.t-grai-w {
+  color: #7f8c8d;
+}
+.t-cream {
+  color: #e6fafc;
+}
